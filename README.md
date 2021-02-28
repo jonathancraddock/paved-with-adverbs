@@ -14,6 +14,16 @@ To build the word list I found half a dozen lists of common adverbs, merged them
 
 Should I *even* include "even", which can function as an adjective or an adverb, or a verb?
 
+## Working Source Dictionary v1 (28th Feb 2021)
+
+I don't know if I can make this work, or not, but it's becoming clear the adverb lists I've found so far are a bit rubbish! It needs a different approach and I'm now working with the OPTED v0.03. My first attempt to manipulate its CSV files led to some inconsistencies and, because this is a one-off task, I merged them into a single Libre Office Calc speadsheet and filtered the resulting list.
+
+> Link to OPTED v0.03, the Online Plain Text English Dictionary: http://www.mso.anu.edu.au/%7Eralph/OPTED/
+
+The usage conditions of this dictionary are that its content must remain in the public domain and in plain format. I've attached the entire working dictionary file - hope it might be useful to someone!
+
+I now have a list of **3791** adverbs, of which **2757** end in -LY.
+
 ## What's next?
 
 - [ ] I would prefer adverbs to be highlighted using a different colour, to distinguish them from actual spelling errors. There does not appear to be any way to do that with a custom dictionary, perhaps a macro is required, but either way, that's a work in progress.
