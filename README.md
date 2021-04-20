@@ -16,6 +16,23 @@ To build the word list I found half a dozen lists of common adverbs, merged them
 
 But, should I *even* include "even"... when it can function as a noun, or an adjective, or an adverb, or a verb?
 
+## Welcome to the Backburner (20th April 2021)
+
+I'm putting this on the backburner for now because the solution I have is good enough, and I have more interesting plans with a Raspberry Pi Zero! At the end of this ReadMe I have pasted my current working adverb list. It contains 227 common adverbs.
+
+There has been some valuable learning: parsing online dictionaries with Notepad++ macros, NodeRED flows to automate Wiktionary lookups, and exfiltrating word lists from a couple of online editor tools.
+
+Attached to this repository are some far more extensive adverb lists, but they are overkill, given that you ***really*** should ***probably*** try to ***actually*** focus on the ***commonly*** used adverbs, the ones we all find ***especially*** irksome, and ***suddenly*** your sentences will be ***particularly*** improved... ***obviously***.
+
+> I'll also be taking a look at "Write-Good" -> https://github.com/btford/write-good
+ 
+Some points I've found useful in the course of this have been:
+
+* The Online Plain Text English Dictionary (and remember to parse the descriptions too)  
+* Discovering the existence of "Corpus Lists"  
+* ProWritingAid and HemmingwayApp  
+* William Strunk's "The Elements Of Style" -> https://www.amazon.co.uk/dp/1643990004  
+
 ## Working Source Dictionary v1 (28th Feb 2021)
 
 I don't know if I can make this work, or not, but it's becoming clear the adverb lists I've found so far are a bit rubbish! It needs a different approach and I'm now working with the OPTED v0.03. My first attempt to manipulate its CSV files led to some inconsistencies and, because this is a one-off task, I merged them into a single Libre Office Calc speadsheet and filtered the resulting list.
